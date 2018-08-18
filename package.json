@@ -1,0 +1,26 @@
+{
+  "name": "reason-octicons",
+  "version": "0.0.1",
+  "description": "Reason ML bindings for @githubprimer/octicons-react",
+  "main": "lib/js/src/Octicon.js",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "exit 0"
+  },
+  "repository": "https://github.com/tpbowden/reason-octicons",
+  "author": "Tom Bowden <tom.b1992@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@githubprimer/octicons-react": "^8.0.0"
+  },
+  "peerDependencies": {
+    "reason-react": ">0.5"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.5",
+    "reason-react": "^0.5.3"
+  }
+}

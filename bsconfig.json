@@ -1,0 +1,6 @@
+{
+  "name": "reason-octicons",
+  "sources": "src",
+  "bs-dependencies": ["reason-react"],
+  "refmt": 3
+}
